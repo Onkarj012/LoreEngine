@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# teaching scaffolding (personal, not part of product)
+teach/
+.claude/
+
+docs/

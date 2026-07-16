@@ -1,0 +1,17 @@
+[project]
+name = "api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.136.3",
+    "httpx>=0.28.1",
+    "mwparserfromhell>=0.7.2",
+    "numpy>=2.4.6",
+    "openai>=2.43.0",
+    "pgvector>=0.5.0",
+    "psycopg-pool>=3.3.1",
+    "psycopg[binary]>=3.3.4",
+    "sentence-transformers>=5.5.1",
+]
